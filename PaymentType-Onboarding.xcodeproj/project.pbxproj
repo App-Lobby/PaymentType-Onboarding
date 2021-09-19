@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5461BD7D26F73F0900A82A14 /* PaymentType_OnboardingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD7C26F73F0900A82A14 /* PaymentType_OnboardingApp.swift */; };
+		5461BD7F26F73F0A00A82A14 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD7E26F73F0A00A82A14 /* OnboardingView.swift */; };
+		5461BD8126F73F1000A82A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5461BD8026F73F1000A82A14 /* Assets.xcassets */; };
+		5461BD8426F73F1000A82A14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5461BD8326F73F1000A82A14 /* Preview Assets.xcassets */; };
+		5461BD9226F73F8B00A82A14 /* Extension+LinearGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD8F26F73F8B00A82A14 /* Extension+LinearGradients.swift */; };
+		5461BD9326F73F8B00A82A14 /* Extension+CIImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD9026F73F8B00A82A14 /* Extension+CIImages.swift */; };
+		5461BD9426F73F8B00A82A14 /* Exntesion+UIScreens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD9126F73F8B00A82A14 /* Exntesion+UIScreens.swift */; };
+		5461BD9926F73FAA00A82A14 /* OnboardingView.Extended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD9726F73FAA00A82A14 /* OnboardingView.Extended.swift */; };
+		5461BD9F26F73FBE00A82A14 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD9C26F73FBE00A82A14 /* ViewModifiers.swift */; };
+		5461BDA026F73FBE00A82A14 /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD9D26F73FBE00A82A14 /* BoxView.swift */; };
+		5461BDA126F73FBE00A82A14 /* CustomRoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5461BD9E26F73FBE00A82A14 /* CustomRoundedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5461BD7926F73F0900A82A14 /* PaymentType-Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PaymentType-Onboarding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5461BD7C26F73F0900A82A14 /* PaymentType_OnboardingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentType_OnboardingApp.swift; sourceTree = "<group>"; };
+		5461BD7E26F73F0A00A82A14 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		5461BD8026F73F1000A82A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5461BD8326F73F1000A82A14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5461BD8526F73F1000A82A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5461BD8F26F73F8B00A82A14 /* Extension+LinearGradients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+LinearGradients.swift"; sourceTree = "<group>"; };
+		5461BD9026F73F8B00A82A14 /* Extension+CIImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+CIImages.swift"; sourceTree = "<group>"; };
+		5461BD9126F73F8B00A82A14 /* Exntesion+UIScreens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Exntesion+UIScreens.swift"; sourceTree = "<group>"; };
+		5461BD9726F73FAA00A82A14 /* OnboardingView.Extended.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.Extended.swift; sourceTree = "<group>"; };
+		5461BD9C26F73FBE00A82A14 /* ViewModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		5461BD9D26F73FBE00A82A14 /* BoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		5461BD9E26F73FBE00A82A14 /* CustomRoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRoundedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5461BD7626F73F0900A82A14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5461BD7026F73F0900A82A14 = {
+			isa = PBXGroup;
+			children = (
+				5461BD7B26F73F0900A82A14 /* PaymentType-Onboarding */,
+				5461BD7A26F73F0900A82A14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5461BD7A26F73F0900A82A14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD7926F73F0900A82A14 /* PaymentType-Onboarding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5461BD7B26F73F0900A82A14 /* PaymentType-Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD8D26F73F7900A82A14 /* App */,
+				5461BD7C26F73F0900A82A14 /* PaymentType_OnboardingApp.swift */,
+				5461BD8026F73F1000A82A14 /* Assets.xcassets */,
+				5461BD8526F73F1000A82A14 /* Info.plist */,
+				5461BD8226F73F1000A82A14 /* Preview Content */,
+			);
+			path = "PaymentType-Onboarding";
+			sourceTree = "<group>";
+		};
+		5461BD8226F73F1000A82A14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD8326F73F1000A82A14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5461BD8D26F73F7900A82A14 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD8E26F73F8000A82A14 /* Exntesions */,
+				5461BD9526F73F9200A82A14 /* UI */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5461BD8E26F73F8000A82A14 /* Exntesions */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD9126F73F8B00A82A14 /* Exntesion+UIScreens.swift */,
+				5461BD9026F73F8B00A82A14 /* Extension+CIImages.swift */,
+				5461BD8F26F73F8B00A82A14 /* Extension+LinearGradients.swift */,
+			);
+			path = Exntesions;
+			sourceTree = "<group>";
+		};
+		5461BD9526F73F9200A82A14 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD9626F73F9D00A82A14 /* Onboarding */,
+				5461BD9B26F73FB000A82A14 /* Reusables */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5461BD9626F73F9D00A82A14 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD7E26F73F0A00A82A14 /* OnboardingView.swift */,
+				5461BD9726F73FAA00A82A14 /* OnboardingView.Extended.swift */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		5461BD9B26F73FB000A82A14 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				5461BD9D26F73FBE00A82A14 /* BoxView.swift */,
+				5461BD9E26F73FBE00A82A14 /* CustomRoundedView.swift */,
+				5461BD9C26F73FBE00A82A14 /* ViewModifiers.swift */,
+			);
+			path = Reusables;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5461BD7826F73F0900A82A14 /* PaymentType-Onboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5461BD8826F73F1000A82A14 /* Build configuration list for PBXNativeTarget "PaymentType-Onboarding" */;
+			buildPhases = (
+				5461BD7526F73F0900A82A14 /* Sources */,
+				5461BD7626F73F0900A82A14 /* Frameworks */,
+				5461BD7726F73F0900A82A14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PaymentType-Onboarding";
+			productName = "PaymentType-Onboarding";
+			productReference = 5461BD7926F73F0900A82A14 /* PaymentType-Onboarding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5461BD7126F73F0900A82A14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5461BD7826F73F0900A82A14 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5461BD7426F73F0900A82A14 /* Build configuration list for PBXProject "PaymentType-Onboarding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5461BD7026F73F0900A82A14;
+			productRefGroup = 5461BD7A26F73F0900A82A14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5461BD7826F73F0900A82A14 /* PaymentType-Onboarding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5461BD7726F73F0900A82A14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5461BD8426F73F1000A82A14 /* Preview Assets.xcassets in Resources */,
+				5461BD8126F73F1000A82A14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5461BD7526F73F0900A82A14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5461BD9226F73F8B00A82A14 /* Extension+LinearGradients.swift in Sources */,
+				5461BD9926F73FAA00A82A14 /* OnboardingView.Extended.swift in Sources */,
+				5461BD9326F73F8B00A82A14 /* Extension+CIImages.swift in Sources */,
+				5461BD9F26F73FBE00A82A14 /* ViewModifiers.swift in Sources */,
+				5461BD7F26F73F0A00A82A14 /* OnboardingView.swift in Sources */,
+				5461BD9426F73F8B00A82A14 /* Exntesion+UIScreens.swift in Sources */,
+				5461BD7D26F73F0900A82A14 /* PaymentType_OnboardingApp.swift in Sources */,
+				5461BDA126F73FBE00A82A14 /* CustomRoundedView.swift in Sources */,
+				5461BDA026F73FBE00A82A14 /* BoxView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5461BD8626F73F1000A82A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5461BD8726F73F1000A82A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5461BD8926F73F1000A82A14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentType-Onboarding/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PaymentType-Onboarding/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohdYasir.PaymentType-Onboarding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5461BD8A26F73F1000A82A14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PaymentType-Onboarding/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "PaymentType-Onboarding/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohdYasir.PaymentType-Onboarding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5461BD7426F73F0900A82A14 /* Build configuration list for PBXProject "PaymentType-Onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5461BD8626F73F1000A82A14 /* Debug */,
+				5461BD8726F73F1000A82A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5461BD8826F73F1000A82A14 /* Build configuration list for PBXNativeTarget "PaymentType-Onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5461BD8926F73F1000A82A14 /* Debug */,
+				5461BD8A26F73F1000A82A14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5461BD7126F73F0900A82A14 /* Project object */;
+}
